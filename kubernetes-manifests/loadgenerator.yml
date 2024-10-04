@@ -20,9 +20,9 @@ spec:
             - name: ET_APM_SERVER_DEFAULT
               value: APM
             - name: ET_VISIT_NUMBER
-              value: "8"
+              value: "6"
             - name: MAX_CHROME_DRIVERS
-              value: "5"
+              value: "4"
             - name: ET_PROBLEMS
               value: BadCacheSynchronization,CPULoad,DatabaseCleanup,DatabaseSlowdown,FetchSizeTooSmall,JourneySearchError404,JourneySearchError500,LoginProblems,MobileErrors,TravellersOptionBox
           image: dynatrace/easytravel-headless-loadgen
